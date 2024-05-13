@@ -5,7 +5,7 @@ class buku
     string judul;
 
 public:
-    buku setJdul(string judul)
+    buku setJudul(string judul)
     {
         this->judul = judul;
         return *this;
@@ -14,4 +14,13 @@ public:
     {
         return this->judul;
     }
+
 } bukunya;
+
+int main()
+{
+     //bukunya.setJudul("Matematika ");
+     //cout << bukunya.getJudul();
+    cout << bukunya.setJudul("Matematika").getJudul();
+    return 0;
+}
