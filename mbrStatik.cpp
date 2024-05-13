@@ -26,5 +26,5 @@ void mahasiswa::setID()
 
 void mahasiswa::printAll()
 {
-    
+    cout << "ID  = " << id << endl;
 }
